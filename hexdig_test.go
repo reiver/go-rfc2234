@@ -6,7 +6,7 @@ import (
 	"sourcecode.social/reiver/go-rfc2234"
 )
 
-func TestIsHexDigit(t *testing.T) {
+func TestIsHexDig(t *testing.T) {
 
 	tests := []struct{
 		Rune rune
@@ -50,25 +50,7 @@ func TestIsHexDigit(t *testing.T) {
 			Expected: true,
 		})
 	}
-	for r:='F'+1; r < 'a'; r++ {
-		tests = append(tests, struct{
-			Rune rune
-			Expected bool
-		}{
-			Rune: r,
-			Expected: false,
-		})
-	}
-	for r:='a'; r <= 'f'; r++ {
-		tests = append(tests, struct{
-			Rune rune
-			Expected bool
-		}{
-			Rune: r,
-			Expected: true,
-		})
-	}
-	for r:='f'+1; r < rune(1024); r++ {
+	for r:='F'+1; r < rune(1024); r++ {
 		tests = append(tests, struct{
 			Rune rune
 			Expected bool
@@ -79,11 +61,11 @@ func TestIsHexDigit(t *testing.T) {
 	}
 
 	for testNumber, test := range tests {
-		actual := rfc2234.IsHexDigit(test.Rune)
+		actual := rfc2234.IsHexDig(test.Rune)
 		expected := test.Expected
 
 		if expected != actual {
-			t.Errorf("For test #%d, the actual value for rfc2234.IsHexDigit() is not what was expected.", testNumber)
+			t.Errorf("For test #%d, the actual value for rfc2234.IsHexDig() is not what was expected.", testNumber)
 			t.Logf("EXPECTED: %t", expected)
 			t.Logf("ACTUAL:   %t", actual)
 			t.Logf("RUNE: (%U) %q", test.Rune, string(test.Rune))
