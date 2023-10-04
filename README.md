@@ -1,6 +1,6 @@
 # go-rfc2234
 
-Package **rfc2234** is an implementation of (parts of) IETF RFC 2234, for the Go programming language.
+Package **rfc2234** is an implementation of (parts of) IETF RFC-2234, for the Go programming language.
 
 Augmented BNF for Syntax Specifications: ABNF (November 1997)  
 https://datatracker.ietf.org/doc/html/rfc2234
