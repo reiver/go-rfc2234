@@ -7,22 +7,22 @@ https://datatracker.ietf.org/doc/html/rfc2234
 
 ## Documention
 
-Online documentation, which includes examples, can be found at: http://godoc.org/sourcecode.social/reiver/go-rfc2234
+Online documentation, which includes examples, can be found at: http://godoc.org/github.com/reiver/go-rfc2234
 
-[![GoDoc](https://godoc.org/sourcecode.social/reiver/go-rfc2234?status.svg)](https://godoc.org/sourcecode.social/reiver/go-rfc2234)
+[![GoDoc](https://godoc.org/github.com/reiver/go-rfc2234?status.svg)](https://godoc.org/github.com/reiver/go-rfc2234)
 
 ## Import
 
 To import package **rfc2234** use `import` code like the follownig:
 ```
-import "sourcecode.social/reiver/go-rfc2234"
+import "github.com/reiver/go-rfc2234"
 ```
 
 ## Installation
 
 To install package **rfc2234** do the following:
 ```
-GOPROXY=direct https://sourcecode.social/reiver/go-rfc2234
+GOPROXY=direct https://github.com/reiver/go-rfc2234
 ```
 
 ## Author

@@ -3,7 +3,7 @@ package rfc2234_test
 import (
 	"testing"
 
-	"sourcecode.social/reiver/go-rfc2234"
+	"github.com/reiver/go-rfc2234"
 )
 
 func TestIsHexDig(t *testing.T) {
