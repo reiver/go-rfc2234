@@ -27,4 +27,4 @@ GOPROXY=direct https://sourcecode.social/reiver/go-rfc2234
 
 ## Author
 
-Package **rfc2234** was written by [Charles Iliya Krempeaux](http://changelog.ca)
+Package **rfc2234** was written by [Charles Iliya Krempeaux](http://reiver.link)
